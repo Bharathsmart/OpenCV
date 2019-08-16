@@ -10,6 +10,7 @@ import cv2
 import numpy as np
 
 # first Download the yolov3.weights, yolov3.cfg files and coco.names
+# https://pjreddie.com/media/files/yolov3-tiny.weights
 # Load Yolo
 net = cv2.dnn.readNet("yolov3-tiny.weights", "yolov3-tiny.cfg")
 
